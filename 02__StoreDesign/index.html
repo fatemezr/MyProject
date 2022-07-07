@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- icons setting -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+    <!-- include css file -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./animations/animate.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-right">
+                <a href=""><i class="glyphicon glyphicon-user"></i></a>
+                <a href=""><i class="glyphicon glyphicon-shopping-cart"></i></a>
+                <a href=""><i class="glyphicon glyphicon-home"></i></a>
+                <a href=""><i class="glyphicon glyphicon-search"></i></a>
+           </a>
+            </div>
+            <div class="nav-left">
+                <div class="register">
+                    <i class="glyphicon glyphicon-log-in"></i>
+                    <a href="">ثبت نام / ورود</a>
+                </div>
+            </div>
+        </nav>
+        <section class="slider">
+            <div class="slides">
+                <div class="slide fade-in-image active" id="slide1">
+                    <img src="./images/slider-minimal-slide-1-1920x888.jpg" alt="">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+                <div class="slide fade-in-image " id="slide2">
+                    <img src="./images/slider-minimal-slide-2-1920x888.jpg" alt="">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+                <div class="slide fade-in-image" id="slide3">
+                    <img src="./images/slider-minimal-slide-3-1920x888.jpg" alt="">
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+
+            </div>
+            <div class="buttons">
+                <i onclick = "setSlide('slide1',1)" class="fa-solid fa-circle"></i>
+                <i onclick = "setSlide('slide2',2)" class="fa-solid fa-circle"></i>
+                <i onclick = "setSlide('slide3',3)" class="fa-solid fa-circle"></i>
+
+            </div>
+        </section>
+    </header>
+
+    
+
+</body>
+<script src="./js/main.js"></script>
+
+</html>

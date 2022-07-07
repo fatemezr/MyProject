@@ -1,0 +1,27 @@
+@font-face {
+    font-family: arabic;
+    src: url(../fonts/arabtype.ttf);
+}
+
+@font-face {
+    font-family: yekan;
+    src: url(../fonts/YEKAN\ PLUS.TTF);
+}
+
+*{
+    direction: rtl;                
+    font-family: yekan;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-size: 16px;
+    margin: 0px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
